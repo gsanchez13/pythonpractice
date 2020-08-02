@@ -97,4 +97,25 @@ both = art.intersection(science)
 # single equal sign is for assignment, double is for comparison
 # # print( 5 > 5)
 # print( 10 != 10)
-# Comparisons: ==, != , > , <, >= , <=
+# Comparisons: ==, != , > , <, >= , <= , is
+# is compares if they are the same thing / object
+
+first_list = [1, 2, 3]
+second_list = [1, 2, 3]
+true_bool = first_list == second_list
+false_bool = first_list is second_list
+# print(true_bool, false_bool)
+
+# IF STATEMENTS
+
+# day_of_week = input("What day of the week is it today? ").lower()
+# day_of_week == 'Sunday'
+# print(day_of_week == "Sunday")
+# if day_of_week == "sunday":
+#     print("Have a great start to your week")
+# elif day_of_week == 'monday':
+#     print("It is Monday")
+# else:
+#     print('Full speed ahead')
+# if, elif (else if) and else statements used for conditionals.
+# indentations are extremely important and tell python which lines of code to run. do not forget to be consistent (4 spaces is the norm)
