@@ -44,4 +44,13 @@ with_name = greeting.format(name)
 #allows you to define a template that you can reuse will multiple values .
 longer_phrase = "Hello {}, today is {}"
 formatted = longer_phrase.format("giselle", "Sunday")
-print(formatted)
+# print(formatted)
+
+#USER INPUTS
+# username = input("Enter your name: ")
+# print(username)
+# size_input = input("How tall are you (cm)?: ")
+# height_cm = int(size_input)
+# height_us = height_cm / 30.48
+# print(f"You are {height_us:.2f}")
+#formatting syntax allows you to use the f to set a certain amount of variables
