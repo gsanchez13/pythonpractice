@@ -35,4 +35,13 @@ name = "bob"
 greeting = f"Hello, {name}"
 #f-strings allow you to embed variables inside strings. Does not change dynamically.
 name = "rolf"
-print(greeting)
+# print(greeting)
+
+#TEMPLATE STRINGS WITH .format()
+name = "Bob"
+greeting = "Hello, {}"
+with_name = greeting.format(name)
+#allows you to define a template that you can reuse will multiple values .
+longer_phrase = "Hello {}, today is {}"
+formatted = longer_phrase.format("giselle", "Sunday")
+print(formatted)
