@@ -11,7 +11,7 @@ result = price * (1 - discount)
 # print(result)
 
 #STRINGS
-name = "Rolf"
+# name = "Rolf"
 # print(name)
 # print(name * 2)
 # Will concatinate the stirngs based on the number of times you want it to appear. Strings can be multiplied in python
@@ -22,3 +22,17 @@ b = 17
 # print(a)
 # print(b)
 #mutability in the languages will allow you to change the original ariable (a) using another variable (b)
+
+#ACTIVITY
+var1 = 5
+var2 = 5
+num1 = 8
+num2 = 2
+total = num1 * num2
+
+#F-STRINGS IN PYTHON
+name = "bob"
+greeting = f"Hello, {name}"
+#f-strings allow you to embed variables inside strings. Does not change dynamically.
+name = "rolf"
+print(greeting)
