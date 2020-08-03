@@ -119,3 +119,29 @@ false_bool = first_list is second_list
 #     print('Full speed ahead')
 # if, elif (else if) and else statements used for conditionals.
 # indentations are extremely important and tell python which lines of code to run. do not forget to be consistent (4 spaces is the norm)
+
+# 'IN' KEYWORD IN PYTHON
+
+friends = ["Rolf", "Bob", "Jen"]
+# print("Jen" in friends)
+movies_watched = {"The Matrix", "Green Book", 'Her'}
+# user_movie = input("Enter something you've watched recently: ")
+# print(user_movie in movies_watched)
+
+# if user_movie in movies_watched:
+#     print(f"I've watched {user_movie} too!")
+# else:
+#     print("I haven't seen that one yet!")
+
+# number = 7
+# user_input = input('Enter y if you would like to play: ')
+# if user_input in ('y', "Y"):
+#     user_number = int(input('Guess a number: '))
+#     if(user_number == number):
+#         print("You guessed correctly!")
+#     elif number - user_number in (1, -1):
+#         print("You were off by one.")
+#     else:
+#         print("Sorry that's wrong!")
+# else:
+#     print("Maybe next time")
