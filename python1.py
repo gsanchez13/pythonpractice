@@ -173,3 +173,20 @@ amount = len(grades)
 #     total += grade
 
 # print(total / amount)
+
+# LIST COMPREHENSIONS
+
+numbers = [1, 3, 5]
+doubled = [n * 2 for n in numbers]
+# putting the loop inside the list brackets returns a new list with the iteration and appending
+# keep them short since they are one-liners
+
+friends = ['Rolf', 'Jen', 'Bob', 'Anne', 'Sam', 'Samantha', 'Saul']
+# conditional in list comprehension. you are generating a new list with list comprehension
+starts_s = [friend for friend in friends if friend.startswith('S')]
+
+# for friend in friends:
+#     if friend.startswith('S'):
+#         starts_s.append(friend)
+
+# print(starts_s)
