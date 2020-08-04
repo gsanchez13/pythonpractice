@@ -136,18 +136,40 @@ movies_watched = {"The Matrix", "Green Book", 'Her'}
 number = 7
 
 # while true creates an infinite loop
-while True:
-    user_input = input('Enter y if you would like to play: (Y/n) ')
+# while True:
+#     user_input = input('Enter y if you would like to play: (Y/n) ')
 
-    if user_input == "n":
-        break
-    # break here allows you to terminate the loop
-    user_number = int(input('Guess a number: '))
-    if(user_number == number):
-        print("You guessed correctly!")
-    elif number - user_number in (1, -1):
-        print("You were off by one.")
-    else:
-        print("Sorry that's wrong!")
-else:
-    print("Maybe next time")
+#     if user_input == "n":
+#         break
+#     # break here allows you to terminate the loop
+#     user_number = int(input('Guess a number: '))
+#     if(user_number == number):
+#         print("You guessed correctly!")
+#     elif number - user_number in (1, -1):
+#         print("You were off by one.")
+#     else:
+#         print("Sorry that's wrong!")
+# else:
+#     print("Maybe next time")
+
+#FOR LOOP
+
+friends = ['Rolf', 'Jen', 'Bob', 'Anne']
+
+# define a variable that will take the first and future value of this list. good for each element of the list, tuple or set.
+# for friend in friends:
+#     print(f"{friend} is my friend.")
+
+# for friend in range(4):
+#     print(f"{friend} is my friend.")
+# allows you to repeat over a list of numbers and returns their index
+
+grades = [35, 67, 98, 100, 100]
+total = sum(grades)
+amount = len(grades)
+# sum is the function that returens the aggregate of all numbers in listt and len returns the length of that list
+
+# for grade in grades:
+#     total += grade
+
+# print(total / amount)
